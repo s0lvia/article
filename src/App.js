@@ -87,7 +87,6 @@ function App() {
               Learn what React and React Native are about here.
             </a> 
           </p>
-            
           </div>
         </div>
       </body>

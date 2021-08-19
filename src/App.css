@@ -8,11 +8,31 @@
   pointer-events: none;
 }
 
-.logos{
-  width: 100px;
-  height: 100px;
-  margin : auto 0px;
+.display{
+  background-color: #111146 ;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
+}
+
+.display-text {
+  color: #F8C032;
+  text-align: center;
+}
+
+.display-text-paragraph {
+  font-size: large;
+}
+
+.logos{
+  width: 350px;
+  height: 150px;
+  /* margin : auto 0px; */
+  margin-top: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .Article-logo{
@@ -52,8 +72,7 @@
 }
 
 .App-link {
-  color: #61dafb;
- 
+  color: aliceblue;
 }
 
 .tutorials {
@@ -64,10 +83,13 @@
 
 .content{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100vh;
   margin: auto 10px;
+  align-items: center;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
